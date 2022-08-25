@@ -1,5 +1,4 @@
 import streamlit as st
-import speech_recognition as sr
 import os
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
@@ -10,6 +9,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from word2number import w2n
+import speech_recognition as sr
 
 st.title(""" Order Placement """)
 
