@@ -1,7 +1,0 @@
-nltk
-SpeechRecognition
-pydub
-word2number
-os
-pandas
-word2number
