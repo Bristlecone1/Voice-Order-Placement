@@ -13,7 +13,7 @@ import speech_recognition as sr
 
 st.title(""" Order Placement """)
 
-z = 'https://github.com/Bristlecone1/vop/blob/main/1.wav'
+z = '1.wav'
 st.subheader("Sample Audio to try the app")
 st.audio(z)
 
